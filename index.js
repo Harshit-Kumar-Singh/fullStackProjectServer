@@ -73,7 +73,7 @@ let x = http.createServer((req, res) => {
   }
 });
 
-x.listen(8000, "0.0.0.0", () => {
+x.listen(PORT, "0.0.0.0", () => {
   console.log("Server Started");
 });
 module.exports = {dataBase};
